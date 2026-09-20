@@ -1,45 +1,56 @@
 # Python
+
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 
 # Virtual environments
+
 venv/
 .venv/
 env/
 
 # Environment variables / secrets
+
 .env
 .env.*
 !.env.example
 
 # IDE
+
 .vscode/
 .idea/
 
 # OS
+
 .DS_Store
 Thumbs.db
 
 # Logs
+
 *.log
 logs/
 
 # Testing / coverage
+
 .pytest_cache/
 .coverage
 htmlcov/
 
 # Node
+
 node_modules/
 dist/
 build/
 
 # Frontend environment
+
 frontend/.env
 frontend/.env.*
+!frontend/.env.example
 
 # Generated files
+
 uploads/
 reports/
 tmp/
